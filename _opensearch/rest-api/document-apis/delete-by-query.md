@@ -15,7 +15,7 @@ You can include a query as part of your delete request so OpenSearch deletes all
 ## Example
 
 ```json
-POST sample-index1/_delete_by_query
+POST sample-index/_delete_by_query
 {
   "query": {
     "match": {
